@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="manifest" href="/manifest.json">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="custom-div">
+
+        <h1 class="custom-text">Weather App</h1>
+        <hr>
+
+        <div style="color: rgb(245, 53, 53); font-size: x-large;" id="message"></div><br>
+
+        <form id="cityForm">
+            <input type="text" id="city" placeholder="Enter City " class="mt-1 p-2 border rounded-md">
+            <button type="submit" class="mt-2 bg-blue-500 text-white px-4 py-2 rounded-md">Get Weather</button>
+        </form>
+
+        <div id="container" class="w-full max-w-md bg-white p-4">
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
