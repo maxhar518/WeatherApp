@@ -27,7 +27,7 @@ h1{
   margin-bottom: 1rem; /* 16px */
 }
 
-@media (max-width: 600px) {
+@media (max-width: 500px) {
   body{
     background-color: white;
     background-size: cover;
