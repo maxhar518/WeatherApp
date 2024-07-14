@@ -44,7 +44,7 @@ const showWeatherData = (info) => {
     const iconUrl = `https://openweathermap.org/img/wn/${iconCode}@2x.png`;
     let backgroundImageUrl;
     let width = "100px"
-    let height = "100px"
+    let height = "600px"
     let backgroundSize = "cover"
     let backroundPosition = "center"
 
@@ -85,7 +85,7 @@ const showWeatherData = (info) => {
     }
 
     document.body.style.backgroundImage = backgroundImageUrl;
-    document.body.style.width = width
+    // document.body.style.width = width
     document.body.style.height = height
     document.body.style.backgroundSize = backgroundSize
     document.body.style.backgroundPosition = backroundPosition
